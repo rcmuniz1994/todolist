@@ -39,5 +39,7 @@ jobs:
       - name: Install dependencies
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
+      - name: Lint files
+        run: yarn lint
       - name: Unit tests
         run: yarn test
