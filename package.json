@@ -44,6 +44,9 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
-    "husky": "^6.0.0"
+    "autoprefixer": "^9",
+    "husky": "^6.0.0",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }
